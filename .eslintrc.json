@@ -26,13 +26,13 @@
         "react",
         "react-hooks",
         "@typescript-eslint",
-        "prettier"
+        "prettier/prettier"
     ],
     "rules": {
       "prettier/pretter": "error",
       "react-hooks/rules-of-hooks": "error",
       "react-hooks/exhaustive-deps":"warn",
-      "react/jsx-filename-extension": [1, { "extension": [".tsx"]}],
+      "react/jsx-filename-extension": [1, { "extensions": [".tsx"] }],
       "import/prefer-default-export": "off",
       "import/extensions": [
         "error",
@@ -45,7 +45,7 @@
     },
     "settings": {
       "import/resolver":{
-        "typescript":[]
+        "typescript": {}
       }
     }
 }
